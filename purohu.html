@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+@font-face {
+  font-family: "あずきフォント", "Meiryo", "Hiragino Maru Gothic ProN", sans-serif;;
+  src: url("azuki.ttf");
+}
+
+body {
+  font-family: "あずきフォント", sans-serif;
+
+  background-color: #beced7;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #beced7,
+    #beced7 28px,
+    #ffffff 29px
+  );
+}
+.date {
+  color:#888;
+  font-size:14px;
+  border-bottom:1px dashed #bbb;
+  padding-bottom:5px;
+  margin-bottom:10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+
+  text-decoration: none;
+  background: #e6e8e8;
+  padding: 10px 18px;
+  border-radius: 10px;
+  color: #503b63;
+}
+
+.menu a:hover {
+  background: #503b63;
+  color: white;
+}
+
+.card {
+  background-color: #e6e8e8;
+  background-image: radial-gradient(circle, #ced9dc 1.5px, transparent 1.5px);
+  background-position: 10px 0;
+  background-size: 23px 23px;
+
+  padding: 30px;
+  margin: 40px auto;
+  border-radius: 0px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 600px;
+
+
+  padding: 30px 30px 30px 50px;
+  border-left:2px solid #4fb9c7;
+  border-radius: 10px;
+}
+
+
+h1 { color: #5f9db0;
+  font-size: 30px;
+  font-family: "Meiryo", sans-serif;
+}
+
+
+p { color: #4f6167;
+    font-size: 15px;
+}
+
+.list{
+  line-height:1.8;
+  color:#4f6167;
+
+  list-style: "♰";
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+.header{
+  text-align:center;
+  margin-top:20px;
+}
+
+.header img{
+  width:50%;
+  max-width:700px;
+  border-radius:15px;
+
+  border:4px solid #7b8292;
+  border-radius:15px;
+  box-shadow:0 8px 25px rgb(226, 232, 236);
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+.wiki{
+  background-color: #e6e8e8;
+  background-image: linear-gradient(0deg, transparent calc(100% - 1px), #f0f0f0 calc(100% - 1px)),
+                    linear-gradient(90deg, transparent calc(100% - 1px), #f0f0f0 calc(100% - 1px));
+  background-size: 16px 16px;
+  background-repeat: repeat;
+  background-position: center center;
+
+  padding: 30px;
+  margin: 40px auto;
+  border-radius: 0px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 600px;
+
+  padding: 30px 30px 30px 50px;
+  border-left:2px solid #4f7bc7;
+  border-radius: 10px;
+}
+
+.card img{
+  width:100%;
+  max-width:500px;
+  border-radius:10px;
+  margin:10px 0;
+}
+
+video {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav class="menu">
+  <a href="れあぬん日記.html">ほーむ🏠</a>
+  <a href="kizi.html">きじ📃</a>
+  <a href="nikki.html">にっき📓</a>
+  <a href="purohu.html">ぷろふ🪪</a>
+</nav>
+
+<header class="header">
+  <img src="reanu_header.png" alt="れあぬん日記ヘッダー">
+</header>
+
+<div class="card" id="#reanunnituite">
+
+<video controls width="640" height="360">
+ <source src="動画/ugoku minikyara.mp4" type="video/mp4">
+  お使いのブラウザは動画タグをサポートしていません。
+</video>
+
+  <h1>れあぬんについて</h1>
+<p>はじめまして(*- -)(*_ _)ペコリ</p>
+<p>漏れはれあぬん。</p>
+</div>
+
+<ul class="wiki">
+  <h1>もくじ</h1>
+<div class="list">
+<li><a href="#reanunnituite">れあぬんについて</a></li>
+<li><a href="#suteetasu">すてーたす</a></li>
+<li><a href="#funsuteetasu">すてーたす</a></li>
+</div></ul></div>
+
+
+<div class="card" id="#suteetasu">
+  <h1>すてーたす</h1>
+<p>名前：れあぬん</br>
+年齢：13歳(中学二年生)</br>
+部活：PC部</br>
+趣味：お絵描き(実績アリ)</br>
+好きなの：鉄火丼　部長　ボカロ</br>
+嫌いなの：ロリコン</br>
+MBTI:INFJ</br>
+界隈:天使界隈　堕天使界隈</br>
+</br>
+以上。これ以上いったらまずいので。</br>
+</p>
+</div>
+
+<div class="card" id="#funsuteetasu">
+  <h1>れあぬ民のすてーたす</h1>
+<p>募集中です(^▽^)/
+</p>
+</div>
+
+</body>
+</html>
